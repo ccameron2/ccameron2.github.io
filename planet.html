@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.8.0, https://mobirise.com -->
+  <!-- Site made with Mobirise Website Builder v5.8.9, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.8.0, mobirise.com">
+  <meta name="generator" content="Mobirise v5.8.9, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo-128x128-2.png" type="image/x-icon">
   <meta name="description" content="">
@@ -27,7 +27,60 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu1 cid-txjefqglii" once="menu" id="menu1-1z">
+  <section data-bs-version="5.1" class="content4 cid-txX02OElyE" id="content4-24">
+    
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Procedural Planet</strong></h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-tEKNVQR2Pu" id="content5-2t">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-4">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">Video coming soon<br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image2 cid-tEKNTmrEFm" id="image2-2q">
+    
+
+    
+    
+
+    <div>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+                <div class="image-wrapper">
+                    <img src="assets/images/planet2.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>The Icosphere</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">The planet is created at runtime by starting with a 20 sided icosahedron, and subdividing each of its faces recursively to a preset LOD. There are controls in the GUI for LOD, Noise frequency, octaves, and a toggle for the CLOD system.<br> <br>The terrain is coloured using a pixel shader, that measures both the elevation, and steepness of the geometry to choose a colour for each given pixel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="menu menu1 cid-txjefqglii" once="menu" id="menu1-1z">
     
 
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -53,47 +106,57 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-txX02OElyE" id="content4-24">
+<section data-bs-version="5.1" class="image1 cid-tEKNTO3UGz" id="image1-2r">
     
 
     
     
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Procedural Planet</strong></h3>
-                
-                
+
+    <div>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+                <div class="image-wrapper">
+                    <img src="assets/images/planetbeach.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>CLOD</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">The geometry for the planet is stored in a quadtree, as each triangle subdivides into 4 smaller ones. The quadtree structure allows only certain parts of the planet to be subdivided at once. The distance from each triangle face to the camera is measured and triangles are subdivided when the camera is close enough.<br><br>Static mesh chunks are spawned at a maximum LOD, that are then rendered using multithreaded rendering. This solution is more performant than attempting to subdivide a part of the whole structure to the maximum LOD, as traversing the structure with too many layers is too slow.<br><br>This system is a work in progress, but when complete should allow for the visualisation of huge planets generated at runtime at high frame rates.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-txWZRjKiqk" id="content4-23">
-    
-
+<section data-bs-version="5.1" class="image6 cid-tEKNUPVMPw" id="image6-2s">
     
     
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Current WIP</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">
-                    Project is currently in development. Pictures and description will be posted when complete</h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content5 cid-txXcUVC3jj" id="content5-2d">
     
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-11">
-                
-                
-                <p class="mbr-text mbr-fonts-style display-7">Procedural planet generated at runtime by subdividing an icosahedron. Current development includes a CLOD system, a shader to represent the surface and atmosphere, and the addition of lakes and oceans. The implementation of the CLOD system should allow for the planet to be generated at a far larger scale with high performance.</p>
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="img-item mb-3">
+                            <img src="assets/images/planetsolidclod.png" alt="">
+                            <div class="img-description mbr-white">
+                                <p class="mbr-fonts-style align-center text1 display-5"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="img-item mb-3">
+                            <img src="assets/images/planetwireclod.png" alt="">
+                            <div class="img-description mbr-white">
+                                <p class="mbr-fonts-style align-center text2 display-5"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -112,7 +175,8 @@
             </div>
         </div>
     </div>
-</section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>

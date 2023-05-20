@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.8.0, https://mobirise.com -->
+  <!-- Site made with Mobirise Website Builder v5.8.9, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.8.0, mobirise.com">
+  <meta name="generator" content="Mobirise v5.8.9, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo-128x128-2.png" type="image/x-icon">
   <meta name="description" content="">
@@ -27,7 +27,23 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu1 cid-tA6kGxJlLt" once="menu" id="menu1-2i">
+  <section data-bs-version="5.1" class="content4 cid-tA6kGxiddI" id="content4-2g">
+    
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>DX12 Circles</strong></h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="menu menu1 cid-tA6kGxJlLt" once="menu" id="menu1-2i">
     
 
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -53,47 +69,86 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-tA6kGxiddI" id="content4-2g">
-    
-
-    
+<section data-bs-version="5.1" class="content5 cid-tEKNxjitI1" id="content5-2p">
     
     <div class="container">
         <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>DX12 Circles</strong></h3>
+            <div class="col-md-12 col-lg-4">
                 
                 
+                <p class="mbr-text mbr-fonts-style display-7">Video coming soon<br></p>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-tA6kGxvn99" id="content4-2h">
+<section data-bs-version="5.1" class="image2 cid-tEKKBif1WT" id="image2-2n">
     
 
     
     
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Current WIP</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">
-                    Project is currently in development. Pictures and description will be posted when complete</h4>
-                
+
+    <div>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+                <div class="image-wrapper">
+                    <img src="assets/images/closecircles.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>DOD and Optimisation</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7"><br>This project was developed as an exercise in DOD principles, multithreading and optimisation. In the default scenario, half of the circles are moving, and collide with the other stationary circles. Currently visualising 100K circles at around 45 FPS.&nbsp;Rendered using my custom DirectX 12 engine in C++.<br><br>Several scenarios are supported, including moving-moving collisions, circle health and death, walls, and using a random radius for each circle.<br></p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content5 cid-tA6kGy41xD" id="content5-2j">
+<section data-bs-version="5.1" class="image1 cid-tEKKBTznti" id="image1-2o">
     
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-11">
-                
-                
-                <p class="mbr-text mbr-fonts-style display-7">This project was developed as an exercise in DOD principles, Multithreading and Optimisation. Half of the circles are moving and collide with any stationary circles. The collision function is multithreaded by utilising a thread pool and data is accessed in a way that prevents cache misses on the CPU. Currently simulating 20K circles at ~30FPS with 90% percent of CPU time spent on collision checks. Rendered using a custom DirectX 12 engine in C++.</p>
+
+    
+    
+
+    <div>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+                <div class="image-wrapper">
+                    <img src="assets/images/fullcircles.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Line sweep and Multithreading</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">The collision function is multithreaded by utilising a thread pool. Each thread checks the collision for a section of the circles. A line sweep in the X direction is used to minimise the circles being checked for collision for any given moving circle. This in combination with DOD principles allows for the simulation of very large numbers of circles. The circles are rendered using multithreaded rendering in DirectX 12, to ensure rendering performance is as high as possible&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image2 cid-tEKOzWz64b" id="image2-2u">
+    
+
+    
+    
+
+    <div>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+                <div class="image-wrapper">
+                    <img src="assets/images/spheres.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Further Development</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">Current development includes using template functions to support the same scenarios in 3D using spheres, and further optimisations with a target performance of 1 million spheres at 60 FPS.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -112,7 +167,8 @@
             </div>
         </div>
     </div>
-</section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
