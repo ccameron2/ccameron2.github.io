@@ -84,7 +84,18 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image2 cid-tEKNTmrEFm" id="image2-2q">
+<section data-bs-version="5.1" class="content11 cid-tLMTBCt8Vf" id="content11-3q">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-4">
+                <div class="mbr-section-btn align-center"><a class="btn btn-warning display-4" href="https://github.com/ccameron2/DX12Planet/blob/main/Planet.cpp">See Code<br></a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image2 cid-tLMYZSc6hy" id="image2-3v">
     
 
     
@@ -94,21 +105,23 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-8">
                 <div class="image-wrapper">
-                    <img src="assets/images/planet2.webp" alt="">
+                    <img src="assets/images/planet2.png" alt="">
                     
                 </div>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>The Icosphere</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">The planet is created at runtime by starting with a 20 sided icosahedron, and subdividing each of its faces recursively to a preset LOD. There are controls in the GUI for LOD, Noise frequency, octaves, and a toggle for the CLOD system.<br> <br>The terrain is coloured using a pixel shader, that measures both the elevation, and steepness of the geometry to choose a colour for each given pixel.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">The planet is created at runtime by starting with a 20 sided icosahedron, and subdividing each of its faces recursively to a preset LOD. There are controls in the GUI for LOD, Noise frequency, octaves, and a toggle for the CLOD system.
+<br>
+<br>The terrain is coloured using a pixel shader, that measures both the elevation, and steepness of the geometry to choose a colour for each given pixel.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image1 cid-tEKNTO3UGz" id="image1-2r">
+<section data-bs-version="5.1" class="image1 cid-tLMZ0hkxBj" id="image1-3w">
     
 
     
@@ -118,21 +131,25 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-8">
                 <div class="image-wrapper">
-                    <img src="assets/images/planetbeach.webp" alt="">
+                    <img src="assets/images/planetbeach.png" alt="">
                     
                 </div>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="text-wrapper">
                     <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>CLOD</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">The geometry for the planet is stored in a quadtree, as each triangle subdivides into 4 smaller ones. The quadtree structure allows only certain parts of the planet to be subdivided at once. The distance from each triangle face to the camera is measured and triangles are subdivided when the camera is close enough.<br><br>Static mesh chunks are spawned at a maximum LOD, that are then rendered using multithreaded rendering. This solution is more performant than attempting to subdivide a part of the whole structure to the maximum LOD, as traversing the structure with too many layers is too slow.<br><br>This system is a work in progress, but when complete should allow for the visualisation of huge planets generated at runtime at high frame rates.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">The geometry for the planet is stored in a quadtree, as each triangle subdivides into 4 smaller ones. The quadtree structure allows only certain parts of the planet to be subdivided at once. The distance from each triangle face to the camera is measured and triangles are subdivided when the camera is close enough.
+<br>
+<br>Static mesh chunks are spawned at a maximum LOD, that are then rendered using multithreaded rendering. This solution is more performant than attempting to subdivide a part of the whole structure to the maximum LOD, as traversing the structure with too many layers is too slow.
+<br>
+<br>This system is a work in progress, but when complete should allow for the visualisation of huge planets generated at runtime at high frame rates.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image6 cid-tEKNUPVMPw" id="image6-2s">
+<section data-bs-version="5.1" class="image6 cid-tLMZniGrFl" id="image6-3x">
     
     
     
@@ -144,7 +161,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="img-item mb-3">
-                            <img src="assets/images/planetsolidclod.webp" alt="">
+                            <img src="assets/images/planetsolidclod.png" alt="">
                             <div class="img-description mbr-white">
                                 <p class="mbr-fonts-style align-center text1 display-5"></p>
                             </div>
@@ -152,7 +169,7 @@
                     </div>
                     <div class="col-12 col-lg">
                         <div class="img-item mb-3">
-                            <img src="assets/images/planetwireclod.webp" alt="">
+                            <img src="assets/images/planetwireclod.png" alt="">
                             <div class="img-description mbr-white">
                                 <p class="mbr-fonts-style align-center text2 display-5"></p>
                             </div>
