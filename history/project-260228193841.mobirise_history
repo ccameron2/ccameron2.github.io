@@ -53,7 +53,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/CCame/Desktop/siteupdate"
   },
   "pages": {
     "index.html": {
